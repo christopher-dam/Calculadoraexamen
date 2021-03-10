@@ -49,6 +49,8 @@ public class Calculadora {
                 case "sin" -> op=Math.sin(op);
                 case "cos" -> op=Math.cos(op);
                 case "inv" -> op=1/op;
+                /* Nueva funcionalidad de la calculadora */
+                case "log" -> op=Math.log(op);
             }
             log.add(operacion);
             log.add(op+"");
